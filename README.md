@@ -1,4 +1,4 @@
-# H5-project
+# H5 project base Muse-UI
 
 ## Project setup
 
