@@ -1,6 +1,6 @@
 <template>
   <nav class="mu-bottom-nav bottom-nav-container" tabindex="0">
-    <img src="../assets/images/bg_bottom_nav.png" class="bottom-nav-bg">
+    <img src="../assets/images/bg_bottom_nav_1125x204.png" class="bottom-nav-bg">
     <ul class="mu-bottom-nav-shift-wrapper">
       <li class="mu-bottom-item" tabindex="0" v-for="(item, index) in navList" :key="index">
         <div class="mu-bottom-item-wrapper">

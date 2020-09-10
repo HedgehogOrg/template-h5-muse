@@ -1,14 +1,14 @@
 import { AppName } from './config';
-import iconRank from '../assets/images/rank_on_icon.png';
-import iconRankOff from '../assets/images/rank_off_icon.png';
-import iconHome from '../assets/images/home_on_icon.png';
-import iconHomeOff from '../assets/images/home_off_icon.png';
-import iconProfile from '../assets/images/profile_on_icon.png';
-import iconProfileOff from '../assets/images/profile_off_icon.png';
-import iconToy from '../assets/images/toy_on_icon.png';
-import iconToyOff from '../assets/images/toy_off_icon.png';
-import iconCabinet from '../assets/images/cabinet_on_icon.png';
-import iconCabinetOff from '../assets/images/cabinet_off_icon.png';
+import iconRank from '../assets/images/icon_rank_on_81x81.png';
+import iconRankOff from '../assets/images/icon_rank_off_81x81.png';
+import iconHome from '../assets/images/icon_home_on_132x132.png';
+import iconHomeOff from '../assets/images/icon_home_off_102x102.png';
+import iconProfile from '../assets/images/icon_profile_on_81x81.png';
+import iconProfileOff from '../assets/images/icon_profile_off_81x81.png';
+import iconToy from '../assets/images/icon_toy_on_49x60.png';
+import iconToyOff from '../assets/images/icon_toy_off_60x60.png';
+import iconCabinet from '../assets/images/icon_cabinet_on_59x60.png';
+import iconCabinetOff from '../assets/images/icon_cabinet_off_60x60.png';
 
 const list = [{
   value: 0,

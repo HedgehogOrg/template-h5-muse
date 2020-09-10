@@ -1,6 +1,6 @@
 <template>
   <div class="empty-widget">
-    <img src="../assets/images/zhenkong.png" class="empty-widget-img">
+    <img src="../assets/images/icon_empty_400x400.png" class="empty-widget-img">
     <p>{{text}}</p>
   </div>
 </template>

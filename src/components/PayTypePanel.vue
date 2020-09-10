@@ -22,8 +22,8 @@
 import { mapState, mapActions, mapMutations } from 'vuex';
 import mgtv from '../common/mgtv';
 import { PayType, IsWechat } from '../common/config';
-import iconWechatPay from '../assets/images/wechatpay.png';
-import iconAlipay from '../assets/images/alipay.png';
+import iconWechatPay from '../assets/images/icon_wechatpay_200x200.png';
+import iconAlipay from '../assets/images/icon_alipay_200x200.png';
 
 const payTypeBtnData = [{
   title: '微信',
