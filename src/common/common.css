@@ -1,0 +1,162 @@
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  padding-bottom: env(safe-area-inset-bottom);
+  -webkit-touch-callout: none;
+  /*系统默认菜单被禁用*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -khtml-user-select: none;
+  /*早起浏览器*/
+  -moz-user-select: none;
+  /*火狐浏览器*/
+  -ms-user-select: none;
+  /*IE浏览器*/
+  user-select: none;
+  /*用户是否能够选中文本*/
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+/* 页面背景图片 */
+.bg-img {
+  min-height: 100vh;
+  background: url("../assets/images/bg.png") center fixed;
+  background-size: 30%;
+}
+
+
+/* 单行省略号 */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 常规弹层UI */
+.my-dialog {
+  border-radius: 10px;
+  background-color: #fcf2f2;
+}
+
+.my-dialog .mu-dialog-title {
+  padding: 15px;
+  font-size: 18px;
+}
+
+.my-dialog .mu-dialog-title+.mu-dialog-body {
+  padding-top: 0;
+}
+
+.my-dialog .mu-dialog-body {
+  padding: 15px;
+}
+
+/* 缩小横线 */
+.mu-divider {
+  transform: scale(1, 0.5);
+}
+
+/* 全屏loading fixed */
+.fixed-loading {
+  position: fixed;
+}
+
+/* 按钮loading 圆角 */
+.round-loading {
+  border-radius: 50px;
+}
+
+/* 复制功能的input框 */
+.clipboard-input {
+  position: absolute;
+  left: -1000px;
+  opacity: 0;
+  z-index: -1;
+}
+
+/* 带红点 */
+.with-badge::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  transform: scale(0.3);
+  background-color: red;
+}
+
+/* 多行省略号 */
+.muti-line-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 摆动动画 */
+.animate-shake {
+  animation: shake 600ms ease-in-out infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+/* 呼吸动画 */
+.animate-breath {
+  animation: breath 600ms ease-in-out infinite;
+}
+
+@keyframes breath {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
