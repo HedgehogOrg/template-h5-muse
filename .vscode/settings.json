@@ -1,0 +1,25 @@
+{
+  "eslint.options": {
+    "plugins": ["vue"]
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "html"],
+  "editor.formatOnSave": true,
+  "html.format.endWithNewline": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "editorconfig": true,
+      "indent_size": 2,
+      "wrap_attributes": "auto",
+      "wrap_line_length": 140
+    }
+  },
+  "explorer.confirmDelete": false,
+  "editor.find.globalFindClipboard": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
