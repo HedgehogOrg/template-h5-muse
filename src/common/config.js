@@ -24,7 +24,7 @@ export const IsIphone = !!window.navigator.userAgent.match(/iPhone/i);
 export const IsAndroid = !!window.navigator.userAgent.match(/Android/i);
 
 // 项目名称
-export const AppName = 'H5-template';
+export const AppName = '<%= projectName %>';
 
 // APP是否带顶部AppBar
 export const WithAppBar = true;

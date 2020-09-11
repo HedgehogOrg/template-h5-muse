@@ -75,16 +75,13 @@
         animation: none;
       }
     </style>
-    <% if (NODE_ENV === 'development') { %>
-    <!-- <script src="//s.url.cn/qqun/qun/qqweb/m/qun/confession/js/vconsole.min.js"></script> -->
-    <% } %>
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title><%= projectName %></title>
   </head>
 
   <body>
     <noscript>
       <strong
-        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        >We're sorry but <%= projectName %> doesn't work
         properly without JavaScript enabled. Please enable it to
         continue.</strong
       >

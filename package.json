@@ -1,5 +1,5 @@
 {
-  "name": "h5-template-muse-ui",
+  "name": "<%= projectName %>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
